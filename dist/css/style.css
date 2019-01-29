@@ -72,6 +72,13 @@ li {
 .icon-twitter-logo-silhouette:before {
   content: "\e902"; }
 
+.row-orange-bkg {
+  padding-top: 200px;
+  padding-bottom: 200px;
+  width: 100%;
+  height: auto;
+  background-color: #FF7133; }
+
 .container-fluid,
 .container {
   margin-right: auto;
@@ -771,7 +778,8 @@ li {
     order: 1; } }
 
 .row-margins {
-  margin-top: 10%; }
+  margin-top: 10%;
+  margin-bottom: 18%; }
 
 .profile-container {
   background-color: #ffff; }
@@ -816,3 +824,230 @@ li {
 @media screen and (max-width: 768px) {
   .leftsidereveal {
     height: auto; } }
+
+.viewing--property--container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 15px 25px 15px 25px;
+  margin-top: 2%;
+  background: #fff;
+  box-shadow: -8px 12px 50px rgba(27, 6, 59, 0.2);
+  border-radius: 5px 5px; }
+
+.viewing--property--container--coloured {
+  width: 80%;
+  margin: 0 auto;
+  padding: 15px 25px 15px 25px;
+  margin-top: 2%;
+  background: #42436A;
+  box-shadow: -8px 12px 50px rgba(27, 6, 59, 0.2);
+  border-radius: 5px 5px; }
+
+img {
+  vertical-align: middle; }
+
+.property--imgs {
+  width: 100%;
+  padding-top: 5px;
+  vertical-align: middle; }
+
+.property--imgs--coloured {
+  width: 100%;
+  padding-top: 15px;
+  vertical-align: middle; }
+
+.property--imgs--coloured img {
+  vertical-align: middle; }
+
+.viewing--content--styles {
+  font-family: 'Roboto', sans-serif; }
+
+.viewing--content--styles--coloured p,
+h3,
+h4,
+h5,
+h6 {
+  color: #fff; }
+
+.viewing--content--styles h3,
+h4,
+h6 {
+  text-align: center;
+  font-weight: 400;
+  color: #960F8C; }
+
+.viewing--content--styles h3 {
+  font-size: 1em;
+  letter-spacing: 1px;
+  font-weight: 500; }
+
+.viewing--content--styles--coloured h4 {
+  font-size: 2.5em;
+  letter-spacing: 1px;
+  font-weight: 500;
+  color: white; }
+
+.viewing--content--styles h4 {
+  font-size: 2em;
+  font-weight: 300;
+  color: #42436A;
+  margin: 0; }
+
+.viewing--content--styles h5 {
+  font-size: 1.5em;
+  font-weight: 300;
+  color: #42436A;
+  padding-top: 15px;
+  text-align: center; }
+
+.viewing--content--styles--coloured h5 {
+  font-size: 1.5em;
+  font-weight: 300;
+  color: white;
+  padding-top: 15px;
+  text-align: center; }
+
+.viewing--content--styles h6 {
+  font-size: 1em;
+  font-weight: 600;
+  color: #42436A;
+  margin: 0; }
+
+.viewing--content--styles--coloured h6 {
+  font-size: 1em;
+  font-weight: 600;
+  color: white;
+  margin: 0; }
+
+.viewing--content--styles p {
+  color: #42436A;
+  font-weight: 500;
+  font-size: 1em; }
+
+.viewing--content--styles--coloured p {
+  color: white;
+  font-weight: 500;
+  font-size: 1em; }
+
+@media screen and (max-width: 768px) {
+  .viewing--content--styles p {
+    color: #42436A;
+    font-weight: 500;
+    font-size: 1.3em;
+    text-align: center; } }
+
+.viewing--content--styles--coloured p {
+  font-weight: 500;
+  font-size: 1.1em; }
+
+p.status--open {
+  font-size: 1.1em;
+  font-weight: 300;
+  text-align: center;
+  color: #23C03D; }
+
+p.status--private {
+  font-size: 1.1em;
+  font-weight: 300;
+  text-align: center;
+  color: #FF9233; }
+
+p.status--declinced {
+  font-size: 1.1em;
+  font-weight: 300;
+  text-align: center;
+  color: #FF1D74; }
+
+.cancel--button--container {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.cancel--Btn {
+  text-align: center;
+  background: #FF1E74;
+  color: white;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  font-weight: 600;
+  letter-spacing: 1px;
+  padding: 10px 10px 10px 10px;
+  border: none;
+  margin: 0 auto; }
+
+.dash-border {
+  border-right: 1px dashed #960F8C; }
+
+@font-face {
+  font-family: 'icomoon';
+  src: url("../icon_viewing/icomoon.eot?szk4co");
+  src: url("fonts/icomoon.eot?szk4co#iefix") format("embedded-opentype"), url("../icon_viewing/icomoon.ttf?szk4co") format("truetype"), url("../icon_viewing/icomoon.woff?szk4co") format("woff"), url("../icon_viewing/icomoon.svg?szk4co#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+[class^="icon-"],
+[class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  text-align: center;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.icon-Cal:before {
+  content: "\e900";
+  font-size: 1.6em;
+  vertical-align: top;
+  padding: 0; }
+
+@media screen and (max-width: 768px) {
+  .icon-Cal:before {
+    font-size: 3em; } }
+
+.icon-DeclineViewing:before {
+  content: "\e901";
+  font-size: 2em;
+  line-height: 1em;
+  vertical-align: top;
+  padding: 0; }
+
+.icon-Eye_open:before {
+  content: "\e902";
+  font-size: 1.8em; }
+
+.icon-Filter:before {
+  content: "\e903"; }
+
+.icon-Map:before {
+  content: "\e904";
+  font-size: 2em;
+  line-height: 1em;
+  vertical-align: top;
+  padding: 0; }
+
+@media screen and (max-width: 768px) {
+  .icon-Map:before {
+    font-size: 4em; } }
+
+.icon-private_viewing:before {
+  content: "\e905";
+  font-size: 1.8em; }
+
+.icon-Time:before {
+  content: "\e906";
+  font-size: 1.5em; }
+
+@media screen and (max-width: 768px) {
+  .icon-Time:before {
+    content: "\e906";
+    font-size: 2.5em; } }
+
+.icons--container {
+  max-height: 25px; }
